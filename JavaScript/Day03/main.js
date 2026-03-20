@@ -97,12 +97,36 @@
  * initivalValue : giá trị khởi tạp
  */
 
-const arr = [1, 2, 3, 4, 5];
-arr.reduce((acc, cur, index, arr) => {
-  console.log(acc);
-  console.log(cur);
-  console.log(index);
-  console.log(arr);
+// const arr = [1, 2, 3, 4, 5];
+// arr.reduce((acc, cur, index, arr) => {
+//   console.log(acc);
+//   console.log(cur);
+//   console.log(index);
+//   console.log(arr);
 
-  return acc;
-}, 0);
+//   return acc;
+// }, 0);
+
+// const arr = ["apple", "kiwi", "banana"];
+// const result = arr.sort((a, b) => a.length - b.length);
+
+// const object = [
+//   { name: "A", age: 20 },
+//   { name: "B", age: 18 },
+//   { name: "C", age: 25 },
+// ];
+// const result = object.sort((a, b) => a.age - b.age);
+// console.log(result);
+
+// const arr = [1, 2, 2, 3, 3, 3];
+// const result = arr.reduce((acc, cur, index, arr) => {
+//   acc[cur] = (acc[cur] || 0) + 1;
+//   return acc;
+// }, {});
+// console.log(result);
+
+// const arr = [5, 1, 9, 3];
+// const result = arr.reduce((acc, cur, index, arr) => {
+//   return cur > acc ? cur : acc;
+// }, arr[0]);
+// console.log(result);
